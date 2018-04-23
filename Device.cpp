@@ -1,8 +1,5 @@
 
-#include "Controller.h"
-#include <Arduboy2.h>
-#include <ArduboyTones.h>
-
+#include "Device.h"
 
 Controller::Controller(){
 
@@ -10,9 +7,7 @@ Controller::Controller(){
   _gameState = 0;
   resetGameData();
   
-
   this->sound = new ArduboyTones(this->audio.enabled);
-
 
 }
 
