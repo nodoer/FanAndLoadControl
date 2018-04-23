@@ -18,7 +18,7 @@ void loop() {
   
     //
     case 0:{
-      menu.run();
+      standby.run();
       break;
     }
 
