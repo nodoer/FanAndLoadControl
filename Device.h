@@ -1,5 +1,5 @@
-#ifndef Init_h
-#define Init_h
+#ifndef Device_h
+#define Device_h
 
 class Init
 {
