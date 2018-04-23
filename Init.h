@@ -1,20 +1,15 @@
-#ifndef Controller_h
-#define Controller_h
+#ifndef Init_h
+#define Init_h
 
-#include "Arduino.h"
-#include <Arduboy2.h>
-#include <ArduboyTones.h>
-
-class Controller : public Arduboy2
+class Init
 {
   public:
-    Controller();
-    ArduboyTones* sound;
+    Init();
     void frameInit();
     void incrementGameMode(boolean up);
     void setGameMode(byte newMode);
     byte getGameMode();
-    struct gameData{
+    struct configData{
       byte byteVal1;
       byte byteVal2;
       byte byteVal3;
